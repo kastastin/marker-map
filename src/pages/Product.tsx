@@ -1,5 +1,12 @@
+import PageNav from "@/components/PageNav";
+
 const ProductPage = () => {
-  return <div>Product Page</div>;
+  return (
+    <>
+      <PageNav />
+      <h1>Product Page</h1>
+    </>
+  );
 };
 
 export default ProductPage;
