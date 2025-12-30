@@ -1,0 +1,16 @@
+.btn {
+  padding: 0.8rem 1.6rem;
+  border: none;
+  border-radius: 5px;
+  font-family: inherit;
+  color: inherit;
+  font-size: 1.5rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.primary {
+  background-color: var(--color-brand--2);
+  color: var(--color-dark--1);
+  font-weight: 700;
+}
