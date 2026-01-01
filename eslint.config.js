@@ -34,12 +34,13 @@ export default defineConfig([
           order: "asc",
           newlinesBetween: 1, // blank line between groups
           groups: [
-            ["type-import", "value-builtin", "value-external"],
-            ["type-internal", "value-internal"],
-            ["type-parent", "type-sibling", "type-index"],
+            ["value-builtin", "value-external"],
+            "value-internal",
             ["value-parent", "value-sibling", "value-index"],
+            "ts-equals-import",
             "side-effect",
             "style",
+            "type-import",
             "unknown",
           ],
           tsconfig: {
